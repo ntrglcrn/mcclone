@@ -1,0 +1,75 @@
+# ========== UNITY ==========
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+Temp/
+
+
+# MemoryCaptures
+MemoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity cache
+.DS_Store
+Thumbs.db
+
+# ========== IDE ==========
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# ========== BUILD FILES ==========
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+
+# ========== OS ==========
+.DS_Store
+Thumbs.db
+
+# ========== DOTNET ==========
+bin/
+obj/
+
+# ========== LOGS ==========
+*.log
+
+# ========== API / SECRETS ==========
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets.json
+config.local.json
+
+# Firebase / keys
+google-services.json
+GoogleService-Info.plist
+
+# ========== CUSTOM ==========
+# сюда добавляй свои чувствительные файлы
