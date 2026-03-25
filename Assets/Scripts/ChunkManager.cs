@@ -49,6 +49,9 @@ public sealed class ChunkManager : MonoBehaviour
 
     private void Awake()
     {
+        // Initialize BlockDatabase singleton first
+        BlockDatabase.Instance.ValidateConsistency();
+        
         EnsureMaterials();
     }
 
